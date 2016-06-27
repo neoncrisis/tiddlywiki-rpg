@@ -1,0 +1,9 @@
+{
+    "title": "$:/plugins/neoncrisis/titansgrave",
+    "description": "Helpers for notetaking during Titansgrave campaign",
+    "author": "neoncrisis",
+    "version": "0.0.1",
+    "core-version": ">=5.0.8",
+    "source": "https://github.com/neoncrisis/tiddlywiki-rpg",
+    "plugin-type": "plugin"
+}

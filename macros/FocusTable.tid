@@ -1,0 +1,11 @@
+title: $:/plugins/neoncrisis/titansgrave/FocusTable
+tags: $:/tags/Macro
+
+\define focus_table(ability)
+<dl>
+  <$list filter="[tag[rpg/ability/$ability$]]">
+    <dt><$link to=<<currentTiddler>>><$view field=title/></$link></dt>
+    <dd><$transclude/></dd>
+  </$list>
+</dl>
+\end

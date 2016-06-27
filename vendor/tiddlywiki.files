@@ -1,0 +1,12 @@
+{
+	"tiddlers": [
+		{
+			"file": "js-yaml.min.js",
+			"fields": {
+				"type": "application/javascript",
+				"title": "$:/plugins/neoncrisis/titansgrave/js-yaml.min.js",
+				"module-type": "library"
+			}
+		}
+	]
+}
