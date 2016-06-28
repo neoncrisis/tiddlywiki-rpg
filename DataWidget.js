@@ -90,9 +90,9 @@ module-type: widget
     }
 
     // Call the desired macro with the parsed data
-    // TODO: how do I get the transcluded widget to parse?
     var widget = this.makeChildWidget({type: "transclude", attributes: {
-      tiddler: {type: "string", value: template}
+        tiddler: {type: "string", value: template},
+        mode: {type: "string", value: "block"}
     }});
 
     this.children = [widget];
